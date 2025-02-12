@@ -4,8 +4,7 @@
 1. Clone the repository :
 
 ```bash
-git clone https://github.com/rheinatamara/relationship_website_mobile.git
-cd  relationship_website_mobile
+git clone https://github.com/giovannyptr/valentine-letter.git
 ```
 
 
