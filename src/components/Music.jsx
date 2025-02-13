@@ -3,7 +3,12 @@ import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy } from "../assets";
+import { heavenly,sparks, sunsetz } from "../assets";
+import home from '../assets/home.jpg'
+import punk from '../assets/punk.jpg'
+import gaga from '../assets/gaga.jpg'
+import onerepublic from '../assets/onerepublic.jpg'
+import cas from '../assets/cas.jpg'
 
 function Music() {
   const navigate = useNavigate();
@@ -17,30 +22,30 @@ function Music() {
       top: "5%",
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
-      albumCover: brandy, 
+      title: "Home",
+      artist: "Edith Whisker",
+      albumCover: home, 
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
-      albumCover: bruno, 
+      title: "Two Punks in Love",
+      artist: "bülow",
+      albumCover: punk, 
       left: '15%',
       top: '40%',
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
-      albumCover: greenday, 
+      title: "Always Remember This Way",
+      artist: "Lady Gaga",
+      albumCover: gaga, 
       left: '30%',
       top: '75%',
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
-      albumCover: kanye, 
+      title: "Counting Stars",
+      artist: "One Republic",
+      albumCover: onerepublic, 
       left: '5%',
       top: '65%',
     },
@@ -52,9 +57,9 @@ function Music() {
       top: '90%',
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
-      albumCover: souljaboy, 
+      title: "Sesame Syrup",
+      artist: "Cigarattes After Sex",
+      albumCover: cas, 
       left: '35%',
       top: '50%',
     },
