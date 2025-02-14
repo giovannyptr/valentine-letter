@@ -1,10 +1,11 @@
 import React from 'react'
+import first from '../assets/1.jpg'
 import pito1 from '../assets/pito1.jpg'
 import pito2 from '../assets/pito2.jpg'
 import satu from '../assets/2018.jpg'
 import dua from '../assets/2019.jpg'
 import tiga from '../assets/lovee.jpg'
-import empat from '../assets/2021.jpg'
+import empat from '../assets/2.jpg'
 import lima from '../assets/2024.jpg'
 import enam from '../assets/2025.jpg'
 import Carousel from './Carousel'
@@ -16,6 +17,7 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
+    { Image: first, title: 'Nov 14, 2017', description: "This was our second date. The day felt simple, but something changed. I don’t know exactly when it happened, but this was the moment I started secretly loving you. 💙 I didn’t say it out loud, but in my heart, I already knew, you were special."}, 
     { Image: satu, title: 'May 24, 2018', description: "As broke uni students, our go-to hangout spot was the local burjo. And of all the places, Malatax was our favorite. Cheap, near UGM, and always there when we needed a late-night meal or just a place to chill."},   
     { Image: dua, title: 'Aug 28, 2019', description: "This year, you finally started making money! This is when we took a trip to Bandung.all because you were a panelist at some physics-nuclear conference that. You took me to a dog house(?)That’s still my favorite part of the trip❤️"},   
     { Image: tiga, title: 'May 23, 2020', description: "This was during COVID. I had just started a new job, but then my salary got cut by 80%, and I was stuck in my kost, unsure of what to do. But then, you came to visit me :') That meant everything."},   
